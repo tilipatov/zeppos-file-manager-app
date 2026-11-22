@@ -1,8 +1,8 @@
 {
   "configVersion": "v3",
   "app": {
-    "appId": 25828,
-    "appName": "File Manager",
+    "appId": 9284653,
+    "appName": "File Manager Test",
     "appType": "app",
     "version": {
       "code": 1,
@@ -10,7 +10,7 @@
     },
     "icon": "icon.png",
     "vender": "Arigato Software",
-    "description": "File Manager application"
+    "description": "Amazfit Balance test build of Arigato File Manager"
   },
   "permissions": [],
   "runtime": {
@@ -35,19 +35,19 @@
         }
       },
       "platforms": [
-        {
-          "st": "r",
-		  "dw": 480
-        }
-	  ]
+        { "name": "amazfit-balance", "deviceSource": 8519936 },
+        { "name": "amazfit-balance", "deviceSource": 8519937 },
+        { "name": "amazfit-balance", "deviceSource": 8519939 }
+      ],
+      "designWidth": 480
     }
   },
   "i18n": {
     "en-US": {
-      "appName": "File Manager"
+      "appName": "File Manager Test"
     },
     "ru-RU": {
-      "appName": "Файловый менеджер"
+      "appName": "Проводник — тест"
     }
   },
   "defaultLanguage": "en-US"

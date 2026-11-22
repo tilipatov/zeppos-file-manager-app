@@ -1,17 +1,17 @@
-# Zepp OS File Manager application
+# File Manager Test for Amazfit Balance
 
-![](https://i.ibb.co/cLL0d3X/icon-small.png)
+The original File Manager was created by Arigato Software. Tenebras contributed the changes in this test branch.
 
-QR-code to install the application (version 1.0.0 alpha):
+## Install on Amazfit Balance
 
-![QR-code to install the application](https://i.ibb.co/hKxQQYj/File-Manager-1-0-0-alpha.png)
+Scan this QR code in Zepp Developer Mode. The preview expires on 24.11.2026, 20:51 MSK according to the package metadata.
 
-## Amazfit Balance test branch
+![Install File Manager Test](preview/install-balance.png)
 
-The original File Manager was created by Arigato Software. Tenebras contributed the changes in this branch.
+The new app appears as **File Manager Test** or **Проводник — тест** in the watch menu. It uses a separate App ID (9284653).
 
-- Within the open folder, matching entries named `baro_altim` or `pressure.dat` appear first.
-- Folder QR displays the open folder's path and entry names as numbered QR codes.
-- The file list follows the round screen during swipe and crown scrolling.
+1. Open a folder with enough entries to scroll.
+2. Swipe up and down, then rotate the crown. Check if the rows follow the same curve in both cases.
+3. Check the **Folder QR** button near the top of the folder. Matching entries named `baro_altim` or `pressure.dat` appear first when present.
 
-[Original File Manager](https://github.com/Arigato-Software/zeppos-file-manager-app) · [ISC license](LICENSE)
+[Download the test package](preview/file-manager-test-balance.zpk) · [Original File Manager](https://github.com/Arigato-Software/zeppos-file-manager-app) · [ISC license](LICENSE)

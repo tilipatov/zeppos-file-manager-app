@@ -1,5 +1,4 @@
 import { getText } from '@zos/i18n'
-import * as Styles from 'zosLoader:./index.[pf].layout.js'
 import { px } from '@zos/utils';
 import { setWakeUpRelaunch } from '@zos/display'
 import { createWidget, deleteWidget, widget, align, getImageInfo, prop, text_style, event, getTextLayout } from '@zos/ui'
