@@ -60,3 +60,10 @@ msgstr "Error opening file"
 
 msgid "under_construction"
 msgstr "Under construction..."
+
+
+msgid "directory_qr"
+msgstr "Folder QR"
+
+msgid "pressure_matches"
+msgstr "Matches"

@@ -29,7 +29,8 @@
             "page/files-list",
             "page/file-info",
             "page/prefix-info",
-            "page/show-file"
+            "page/show-file",
+            "page/directory-report"
           ]
         }
       },

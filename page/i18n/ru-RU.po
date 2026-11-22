@@ -60,3 +60,10 @@ msgstr "Ошибка открытия файла"
 
 msgid "under_construction"
 msgstr "В разработке..."
+
+
+msgid "directory_qr"
+msgstr "Список в QR"
+
+msgid "pressure_matches"
+msgstr "Найдено"
