@@ -67,3 +67,37 @@ msgstr "Folder QR"
 
 msgid "pressure_matches"
 msgstr "Matches"
+
+
+msgid "observe_start"
+msgstr "Record updates"
+
+msgid "observe_choose"
+msgstr "Sample every 30 seconds. Select duration."
+
+msgid "observe_minutes"
+msgstr "min"
+
+msgid "observe_stop"
+msgstr "Stop"
+
+msgid "observe_keep_awake"
+msgstr "Keep the screen awake."
+
+msgid "observe_running"
+msgstr "Recording…"
+
+msgid "observe_result"
+msgstr "Samples"
+
+msgid "observe_updates"
+msgstr "Manager changes:"
+
+msgid "observe_changes_qr"
+msgstr "Changes QR"
+
+msgid "observe_full_qr"
+msgstr "Full log QR"
+
+msgid "observe_again"
+msgstr "New recording"

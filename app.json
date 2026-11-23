@@ -5,7 +5,7 @@
     "appName": "File Manager Test",
     "appType": "app",
     "version": {
-      "code": 1,
+      "code": 2,
       "name": "1.0.0"
     },
     "icon": "icon.png",
@@ -30,7 +30,8 @@
             "page/file-info",
             "page/prefix-info",
             "page/show-file",
-            "page/directory-report"
+            "page/directory-report",
+            "page/barometer-observation"
           ]
         }
       },

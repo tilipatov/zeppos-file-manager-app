@@ -85,6 +85,22 @@ Page({
       globalData.yoffsets[globalData.yoffsets.length - 1] = yoffset;
     }
     this.ypos += px(52);
+    const observationFiles = ['baro_manager.dat', 'pressure.dat'];
+    if (observationFiles.every(name => entries.some(entry => entry.name === name && entry.type !== 'folder'))) {
+      createWidget(widget.BUTTON, {
+        x: px(70), y: this.ypos, w: px(340), h: px(44), radius: px(14),
+        normal_color: 0x285369, press_color: 0x407891, text_size: px(20),
+        text: getText('observe_start'),
+        click_func: () => {
+          const dirPath = globalData.explorer.getFullPath();
+          const base = dirPath.endsWith('/') ? dirPath : dirPath + '/';
+          globalData.barometerObservationPaths = observationFiles.map(name => base + name);
+          this.back = false;
+          push({ url: 'page/barometer-observation' });
+        },
+      });
+      this.ypos += px(52);
+    }
 
     for (const file of dir){
       

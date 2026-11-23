@@ -67,3 +67,37 @@ msgstr "Список в QR"
 
 msgid "pressure_matches"
 msgstr "Найдено"
+
+
+msgid "observe_start"
+msgstr "Записать обновления"
+
+msgid "observe_choose"
+msgstr "Замер каждые 30 секунд. Выбери длительность."
+
+msgid "observe_minutes"
+msgstr "мин"
+
+msgid "observe_stop"
+msgstr "Завершить"
+
+msgid "observe_keep_awake"
+msgstr "Следи, чтобы экран не погас."
+
+msgid "observe_running"
+msgstr "Записываю…"
+
+msgid "observe_result"
+msgstr "Проверок"
+
+msgid "observe_updates"
+msgstr "Изменений менеджера:"
+
+msgid "observe_changes_qr"
+msgstr "Изменения в QR"
+
+msgid "observe_full_qr"
+msgstr "Все проверки в QR"
+
+msgid "observe_again"
+msgstr "Новая запись"
